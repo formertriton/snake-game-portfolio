@@ -1,4 +1,4 @@
-\# 🐍 Snake Game - Data-Driven Portfolio Project
+# 🐍 Snake Game - Data-Driven Portfolio Project
 
 
 
@@ -6,77 +6,71 @@ A modern implementation of the classic Snake game with advanced data analytics a
 
 
 
-!\[Python](https://img.shields.io/badge/Python-3.8+-blue.svg)
 
-!\[Pygame](https://img.shields.io/badge/Pygame-2.5.2-green.svg)
 
-!\[License](https://img.shields.io/badge/License-MIT-yellow.svg)
+## 🎮 Features
 
 
 
-\## 🎮 Features
+### Core Gameplay
+
+\*\*Classic Snake mechanics\*\* with smooth controls
+
+\*\*Configurable game settings\*\* via JSON configuration
+
+\*\*Multiple control schemes\*\* (Arrow keys + WASD)
+
+\*\*Pause/Resume functionality\*\*
+
+\*\*Game over handling\*\* with restart option
 
 
 
-\### Core Gameplay
+### Data Analytics & Visualization
 
-\- \*\*Classic Snake mechanics\*\* with smooth controls
+\*\*Comprehensive statistics tracking\*\* for each game session
 
-\- \*\*Configurable game settings\*\* via JSON configuration
+\*\*Performance analytics\*\* including efficiency metrics
 
-\- \*\*Multiple control schemes\*\* (Arrow keys + WASD)
+\*\*Data persistence\*\* with JSON file storage
 
-\- \*\*Pause/Resume functionality\*\*
+\*\*Interactive data visualization\*\* with matplotlib
 
-\- \*\*Game over handling\*\* with restart option
+\*\*Progress reports\*\* and achievement system
 
-
-
-\### Data Analytics \& Visualization
-
-\- \*\*Comprehensive statistics tracking\*\* for each game session
-
-\- \*\*Performance analytics\*\* including efficiency metrics
-
-\- \*\*Data persistence\*\* with JSON file storage
-
-\- \*\*Interactive data visualization\*\* with matplotlib
-
-\- \*\*Progress reports\*\* and achievement system
-
-\- \*\*High scores leaderboard\*\*
+\*\*High scores leaderboard\*\*
 
 
 
-\### Technical Features
+### Technical Features
 
-\- \*\*Object-oriented architecture\*\* with clean separation of concerns
+\*\*Object-oriented architecture\*\* with clean separation of concerns
 
-\- \*\*Modular design\*\* for easy extension and maintenance
+\*\*Modular design\*\* for easy extension and maintenance
 
-\- \*\*Configuration management\*\* system
+\*\*Configuration management\*\* system
 
-\- \*\*Professional code structure\*\* following Python best practices
+\*\*Professional code structure\*\* following Python best practices
 
-\- \*\*Error handling\*\* and logging
+\*\*Error handling\*\* and logging
 
-\- \*\*Cross-platform compatibility\*\*
-
-
-
-\## 🚀 Quick Start
+\*\*Cross-platform compatibility\*\*
 
 
 
-\### Prerequisites
-
-\- Python 3.8 or higher
-
-\- pip package manager
+## 🚀 Quick Start
 
 
 
-\### Installation
+### Prerequisites
+
+Python 3.8 or higher
+
+- pip package manager
+
+
+
+### Installation
 
 
 
@@ -116,7 +110,7 @@ That's it! The game will start immediately.
 
 
 
-\## 🎯 How to Play
+## 🎯 How to Play
 
 
 
@@ -134,7 +128,7 @@ That's it! The game will start immediately.
 
 
 
-\### Objective
+### Objective
 
 \- Control the snake to eat food (red circles)
 
@@ -146,11 +140,11 @@ That's it! The game will start immediately.
 
 
 
-\## 📊 Data Analytics Features
+## 📊 Data Analytics Features
 
 
 
-\### Game Statistics Tracked
+### Game Statistics Tracked
 
 \- \*\*Score and game length\*\*
 
@@ -164,7 +158,7 @@ That's it! The game will start immediately.
 
 
 
-\### Visualizations Available
+### Visualizations Available
 
 Run the data visualizer to see your gaming analytics:
 
@@ -190,7 +184,7 @@ python src/data\_visualizer.py
 
 
 
-\### Sample Analytics Output
+### Sample Analytics Output
 
 ```
 
@@ -224,7 +218,7 @@ python src/data\_visualizer.py
 
 
 
-\## 🏗️ Project Structure
+## 🏗️ Project Structure
 
 
 
@@ -266,7 +260,7 @@ snake-game-portfolio/
 
 
 
-\## ⚙️ Configuration
+## ⚙️ Configuration
 
 
 
@@ -306,11 +300,11 @@ Customize your game experience by editing `config/settings.json`:
 
 
 
-\## 🧪 Technical Implementation
+## 🧪 Technical Implementation
 
 
 
-\### Object-Oriented Design
+### Object-Oriented Design
 
 \- \*\*Snake class\*\*: Handles movement, collision detection, and rendering
 
@@ -350,7 +344,7 @@ Customize your game experience by editing `config/settings.json`:
 
 
 
-\## 📈 Skills Demonstrated
+## 📈 Skills Demonstrated
 
 
 
@@ -378,7 +372,7 @@ This project showcases proficiency in:
 
 
 
-\## 🔮 Future Enhancements
+## 🔮 Future Enhancements
 
 
 
@@ -424,7 +418,7 @@ Contributions are welcome! Please feel free to submit a Pull Request. For major 
 
 
 
-\## 📝 License
+## 📝 License
 
 
 
@@ -432,7 +426,7 @@ This project is licensed under the MIT License - see the \[LICENSE](LICENSE) fil
 
 
 
-\## 📫 Contact
+## 📫 Contact
 
 
 
@@ -452,5 +446,5 @@ Project Link: \[https://github.com/formertriton/snake-game-portfolio](https://gi
 
 
 
-\*Built with ❤️ and Python\*
+*Built with ❤️ and Python\*
 
