@@ -436,7 +436,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 
 
-Project Link: \[https://github.com/formertriton/snake-game-portfolio](https://github.com/formertriton/snake-game-portfolio)
+Project Link: (https://github.com/formertriton/snake-game-portfolio)
 
 
 
