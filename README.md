@@ -4,7 +4,9 @@
 
 A modern implementation of the classic Snake game with advanced data analytics and visualization features. Built to showcase Python programming skills, object-oriented design, and data engineering capabilities.
 
+<img width="801" height="631" alt="Screenshot 2025-08-06 122356" src="https://github.com/user-attachments/assets/d2f12599-ab17-4c71-8a4f-c2426d9faa33" />
 
+<img width="795" height="621" alt="Screenshot 2025-08-06 122406" src="https://github.com/user-attachments/assets/c6feb752-81c8-4f62-bf75-9379753c5c11" />
 
 
 
@@ -422,7 +424,7 @@ Contributions are welcome! Please feel free to submit a Pull Request. For major 
 
 
 
-This project is licensed under the MIT License - see the \[LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License - see the LICENSE file for details.
 
 
 
@@ -430,7 +432,7 @@ This project is licensed under the MIT License - see the \[LICENSE](LICENSE) fil
 
 
 
-\*\*Your Name\*\* - \[GitHub Profile](https://github.com/formertriton)
+\*\*Angelo R\*\* - \(https://github.com/formertriton)
 
 
 
@@ -444,7 +446,9 @@ Project Link: \[https://github.com/formertriton/snake-game-portfolio](https://gi
 
 ⭐ \*\*Star this repository if you found it helpful!\*\*
 
+<img width="1919" height="1030" alt="Screenshot 2025-08-06 122733" src="https://github.com/user-attachments/assets/01c8dd9d-cebf-4758-bcee-6bac810ca5c1" />
 
 
 *Built with ❤️ and Python\*
 
+<img width="559" height="1017" alt="Screenshot 2025-08-06 123353" src="https://github.com/user-attachments/assets/698ce9f0-a460-4f37-9e7a-db4f95145df3" />
