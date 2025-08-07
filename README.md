@@ -51,33 +51,25 @@ Python 3.8 or higher
 # Installation
 1. Clone the repository
 
-&nbsp;  ```
-
-&nbsp;  git clone https://github.com/formertriton/snake-game-portfolio.git
-
-&nbsp;  cd snake-game-portfolio
-
-&nbsp;  ```
+```
+git clone https://github.com/formertriton/snake-game-portfolio.git
+cd snake-game-portfolio
+```
 
 
 
 2. Install dependencies
-
-&nbsp;  ```
-
-&nbsp;  pip install -r requirements.txt
-
-&nbsp;  ```
+```
+pip install -r requirements.txt
+```
 
 
 
 3. Run the game
 
-&nbsp;  ```
-
-&nbsp;  python main.py
-
-&nbsp;  ```
+```
+python main.py
+```
 
 That's it! The game will start immediately.
 
@@ -120,7 +112,6 @@ That's it! The game will start immediately.
 
 Run the data visualizer to see your gaming analytics:
 ```
-
 python src/data\_visualizer.py
 
 ```
@@ -143,25 +134,25 @@ Generated Charts:
 
 📊 GAME SUMMARY:
 
-&nbsp;  Total Games Played: 25
+Total Games Played: 25
 
-&nbsp;  Total Playtime: 0.75 hours
+Total Playtime: 0.75 hours
 
-&nbsp;  Average Score: 85.6
+Average Score: 85.6
 
-&nbsp;  Best Score: 180
+Best Score: 180
 
-&nbsp;  Score Consistency (σ): 32.4
+Score Consistency (σ): 32.4
 
 
 
 🏆 ACHIEVEMENTS:
 
-&nbsp;  🎮 Dedicated Player - Played 10+ games
+🎮 Dedicated Player - Played 10+ games
 
-&nbsp;  💯 Century Club - Scored 100+ points
+💯 Century Club - Scored 100+ points
 
-&nbsp;  📊 Consistent Player - Low score variation
+📊 Consistent Player - Low score variation
 
 ```
 
@@ -216,27 +207,27 @@ Customize your game experience by editing `config/settings.json`:
 
 {
 
-&nbsp;   "game": {
+   "game": {
 
-&nbsp;       "width": 800,
+       "width": 800,
 
-&nbsp;       "height": 600,
+       "height": 600,
 
-&nbsp;       "cell\_size": 20,
+       "cell\_size": 20,
 
-&nbsp;       "initial\_speed": 150,
+       "initial\_speed": 150,
 
-&nbsp;       "colors": {
+       "colors": {
 
-&nbsp;           "background": "#000000",
+           "background": "#000000",
 
-&nbsp;           "snake": "#00FF00",
+           "snake": "#00FF00",
 
-&nbsp;           "food": "#FF0000"
+           "food": "#FF0000"
 
-&nbsp;       }
+       }
 
-&nbsp;   }
+   }
 
 }
 
