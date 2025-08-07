@@ -1,7 +1,5 @@
 # 🐍 Snake Game - Data-Driven Portfolio Project
 
-
-
 A modern implementation of the classic Snake game with advanced data analytics and visualization features. Built to showcase Python programming skills, object-oriented design, and data engineering capabilities.
 
 <img width="801" height="631" alt="Screenshot 2025-08-06 122356" src="https://github.com/user-attachments/assets/d2f12599-ab17-4c71-8a4f-c2426d9faa33" />
@@ -9,76 +7,51 @@ A modern implementation of the classic Snake game with advanced data analytics a
 <img width="795" height="621" alt="Screenshot 2025-08-06 122406" src="https://github.com/user-attachments/assets/c6feb752-81c8-4f62-bf75-9379753c5c11" />
 
 
+# 🎮 Features
 
-## 🎮 Features
+# Core Gameplay
 
+Classic Snake mechanics with smooth controls
+Configurable game settings via JSON configuration
+Multiple control schemes (Arrow keys + WASD)
+Pause/Resume functionality
+Game over handling with restart option
 
+# Data Analytics & Visualization
 
-### Core Gameplay
-
-\*\*Classic Snake mechanics\*\* with smooth controls
-
-\*\*Configurable game settings\*\* via JSON configuration
-
-\*\*Multiple control schemes\*\* (Arrow keys + WASD)
-
-\*\*Pause/Resume functionality\*\*
-
-\*\*Game over handling\*\* with restart option
-
-
-
-### Data Analytics & Visualization
-
-\*\*Comprehensive statistics tracking\*\* for each game session
-
-\*\*Performance analytics\*\* including efficiency metrics
-
-\*\*Data persistence\*\* with JSON file storage
-
-\*\*Interactive data visualization\*\* with matplotlib
-
-\*\*Progress reports\*\* and achievement system
-
-\*\*High scores leaderboard\*\*
+Comprehensive statistics tracking for each game session
+Performance analytics including efficiency metrics
+Data persistence with JSON file storage
+Interactive data visualization with matplotlib
+Progress reports and achievement system
+High scores leaderboard
 
 
 
-### Technical Features
+# Technical Features
 
-\*\*Object-oriented architecture\*\* with clean separation of concerns
-
-\*\*Modular design\*\* for easy extension and maintenance
-
-\*\*Configuration management\*\* system
-
-\*\*Professional code structure\*\* following Python best practices
-
-\*\*Error handling\*\* and logging
-
-\*\*Cross-platform compatibility\*\*
+Object-oriented architecture with clean separation of concerns
+Modular design for easy extension and maintenance
+Configuration management system
+Professional code structure following Python best practices
+Error handling and logging
+Cross-platform compatibility
 
 
-
-## 🚀 Quick Start
-
+# 🚀 Quick Start
 
 
-### Prerequisites
+# Prerequisites
 
 Python 3.8 or higher
 
 - pip package manager
 
 
+# Installation
+1. Clone the repository
 
-### Installation
-
-
-
-1\. \*\*Clone the repository\*\*
-
-&nbsp;  ```bash
+&nbsp;  ```
 
 &nbsp;  git clone https://github.com/formertriton/snake-game-portfolio.git
 
@@ -88,9 +61,9 @@ Python 3.8 or higher
 
 
 
-2\. \*\*Install dependencies\*\*
+2. Install dependencies
 
-&nbsp;  ```bash
+&nbsp;  ```
 
 &nbsp;  pip install -r requirements.txt
 
@@ -98,23 +71,17 @@ Python 3.8 or higher
 
 
 
-3\. \*\*Run the game\*\*
+3. Run the game
 
-&nbsp;  ```bash
+&nbsp;  ```
 
 &nbsp;  python main.py
 
 &nbsp;  ```
 
-
-
 That's it! The game will start immediately.
 
-
-
-## 🎯 How to Play
-
-
+# 🎯 How to Play
 
 | Control | Action |
 
@@ -129,64 +96,44 @@ That's it! The game will start immediately.
 | ESC | Quit game |
 
 
+# Objective
 
-### Objective
-
-\- Control the snake to eat food (red circles)
-
-\- Grow longer with each food consumed
-
-\- Avoid hitting walls or your own tail
-
-\- Achieve the highest score possible!
+- Control the snake to eat food (red circles)
+- Grow longer with each food consumed
+- Avoid hitting walls or your own tail
+- Achieve the highest score possible!
 
 
-
-## 📊 Data Analytics Features
+# 📊 Data Analytics Features
 
 
 
-### Game Statistics Tracked
+# Game Statistics Tracked
 
-\- \*\*Score and game length\*\*
+- Score and game length
+- Game duration and efficiency metrics
+- Movement patterns and direction changes
+- Food consumption rate
+- Performance trends over time
 
-\- \*\*Game duration and efficiency metrics\*\*
-
-\- \*\*Movement patterns and direction changes\*\*
-
-\- \*\*Food consumption rate\*\*
-
-\- \*\*Performance trends over time\*\*
-
-
-
-### Visualizations Available
+# Visualizations Available
 
 Run the data visualizer to see your gaming analytics:
-
-
-
-```bash
+```
 
 python src/data\_visualizer.py
 
 ```
 
+Generated Charts:
+
+- Score progression over time with trend analysis
+- Score distribution histogram
+- Game duration vs performance correlation
+- Performance metrics correlation matrix
 
 
-\*\*Generated Charts:\*\*
-
-\- Score progression over time with trend analysis
-
-\- Score distribution histogram
-
-\- Game duration vs performance correlation
-
-\- Performance metrics correlation matrix
-
-
-
-### Sample Analytics Output
+# Sample Analytics Output
 
 ```
 
@@ -260,15 +207,10 @@ snake-game-portfolio/
 
 ```
 
-
-
-## ⚙️ Configuration
-
+# ⚙️ Configuration
 
 
 Customize your game experience by editing `config/settings.json`:
-
-
 
 ```json
 
@@ -301,154 +243,93 @@ Customize your game experience by editing `config/settings.json`:
 ```
 
 
-
-## 🧪 Technical Implementation
-
-
-
-### Object-Oriented Design
-
-\- \*\*Snake class\*\*: Handles movement, collision detection, and rendering
-
-\- \*\*Food class\*\*: Manages food placement and collision detection
-
-\- \*\*GameStats class\*\*: Tracks and persists game statistics
-
-\- \*\*SnakeGame class\*\*: Main game orchestrator
-
-\- \*\*GameDataVisualizer class\*\*: Analytics and visualization engine
+# 🧪 Technical Implementation
 
 
 
-\### Data Engineering Features
+# Object-Oriented Design
 
-\- \*\*JSON-based data persistence\*\* for game statistics
-
-\- \*\*Pandas integration\*\* for data analysis
-
-\- \*\*Efficient data structures\*\* for game state management
-
-\- \*\*Real-time statistics\*\* calculation and tracking
-
-\- \*\*Data validation\*\* and error handling
+- Snake class: Handles movement, collision detection, and rendering
+- Food class: Manages food placement and collision detection
+- GameStats class: Tracks and persists game statistics
+- SnakeGame class: Main game orchestrator
+- GameDataVisualizer class: Analytics and visualization engine
 
 
+# Data Engineering Features
 
-\### Performance Optimizations
+- JSON-based data persistence for game statistics
+- Pandas integration for data analysis
+- Efficient data structures for game state management
+- Real-time statistics calculation and tracking
+- Data validation and error handling
 
-\- \*\*Efficient collision detection\*\* algorithms
+# Performance Optimizations
 
-\- \*\*Optimized rendering\*\* with pygame
+- Efficient collision detection algorithms
+- Optimized rendering with pygame
+- Memory-efficient data structures
+- Configurable frame rate control
 
-\- \*\*Memory-efficient\*\* data structures
-
-\- \*\*Configurable frame rate\*\* control
-
-
-
-## 📈 Skills Demonstrated
-
-
+# 📈 Skills Demonstrated
 
 This project showcases proficiency in:
 
+- Python Programming: Advanced OOP concepts and design patterns
+- Game Development: pygame library and game loop architecture
+- Data Engineering: Data collection, storage, and processing
+- Data Visualization: matplotlib and statistical analysis
+- Software Architecture: Modular design and separation of concerns
+- Configuration Management: JSON-based configuration systems
+- Error Handling: Robust error management and logging
+- Documentation: Comprehensive project documentation
+- Git Workflow: Professional version control practices
 
 
-\- \*\*Python Programming\*\*: Advanced OOP concepts and design patterns
-
-\- \*\*Game Development\*\*: pygame library and game loop architecture
-
-\- \*\*Data Engineering\*\*: Data collection, storage, and processing
-
-\- \*\*Data Visualization\*\*: matplotlib and statistical analysis
-
-\- \*\*Software Architecture\*\*: Modular design and separation of concerns
-
-\- \*\*Configuration Management\*\*: JSON-based configuration systems
-
-\- \*\*Error Handling\*\*: Robust error management and logging
-
-\- \*\*Documentation\*\*: Comprehensive project documentation
-
-\- \*\*Git Workflow\*\*: Professional version control practices
+# 🔮 Future Enhancements
 
 
 
-## 🔮 Future Enhancements
+-Multiplayer support with networking
+-Advanced AI opponents with different difficulty levels
+-Power-ups and special items
+-Sound effects and background music
+-Web deployment with Flask/FastAPI
+-Database integration (PostgreSQL/MongoDB)
+-Machine learning for gameplay pattern analysis
+-Real-time dashboard with live statistics
+-Mobile responsive web version
+-Tournament mode with brackets
 
 
-
-\- \[ ] \*\*Multiplayer support\*\* with networking
-
-\- \[ ] \*\*Advanced AI opponents\*\* with different difficulty levels
-
-\- \[ ] \*\*Power-ups and special items\*\*
-
-\- \[ ] \*\*Sound effects and background music\*\*
-
-\- \[ ] \*\*Web deployment\*\* with Flask/FastAPI
-
-\- \[ ] \*\*Database integration\*\* (PostgreSQL/MongoDB)
-
-\- \[ ] \*\*Machine learning\*\* for gameplay pattern analysis
-
-\- \[ ] \*\*Real-time dashboard\*\* with live statistics
-
-\- \[ ] \*\*Mobile responsive\*\* web version
-
-\- \[ ] \*\*Tournament mode\*\* with brackets
-
-
-
-\## 🤝 Contributing
-
-
+# 🤝 Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request. For major changes, please open an issue first to discuss what you would like to change.
 
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
 
-
-1\. Fork the repository
-
-2\. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-
-3\. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-
-4\. Push to the branch (`git push origin feature/AmazingFeature`)
-
-5\. Open a Pull Request
-
-
-
-## 📝 License
-
-
+# 📝 License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
 
+# 📫 Contact
 
-## 📫 Contact
-
-
-
-\*\*Angelo R\*\* - \(https://github.com/formertriton)
-
-
+Angelo R - \(https://github.com/formertriton)
 
 Project Link: (https://github.com/formertriton/snake-game-portfolio)
 
-
-
 ---
 
-
-
-⭐ \*\*Star this repository if you found it helpful!\*\*
+⭐ Star this repository if you found it helpful!
 
 <img width="1919" height="1030" alt="Screenshot 2025-08-06 122733" src="https://github.com/user-attachments/assets/01c8dd9d-cebf-4758-bcee-6bac810ca5c1" />
 
 
-*Built with ❤️ and Python\*
+Built with ❤️ and Python
 
 <img width="559" height="1017" alt="Screenshot 2025-08-06 123353" src="https://github.com/user-attachments/assets/698ce9f0-a460-4f37-9e7a-db4f95145df3" />
