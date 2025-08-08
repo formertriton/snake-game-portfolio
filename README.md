@@ -112,7 +112,7 @@ That's it! The game will start immediately.
 
 Run the data visualizer to see your gaming analytics:
 ```
-python src/data\_visualizer.py
+python src/data_visualizer.py
 
 ```
 
@@ -163,39 +163,22 @@ Score Consistency (σ): 32.4
 
 
 ```
-
 snake-game-portfolio/
-
 ├── README.md                 # Project documentation
-
 ├── requirements.txt          # Python dependencies
-
 ├── main.py                   # Main game runner
-
 ├── config/
-
 │   └── settings.json        # Game configuration
-
 ├── src/                     # Source code
-
 │   ├── game.py              # Main game logic
-
 │   ├── snake.py             # Snake class
-
 │   ├── food.py              # Food class
-
-│   ├── game\_stats.py        # Statistics tracking
-
-│   └── data\_visualizer.py   # Data visualization
-
+│   ├── game_stats.py        # Statistics tracking
+│   └── data_visualizer.py   # Data visualization
 ├── data/                    # Generated data files
-
-│   ├── game\_stats.json      # Game history
-
-│   └── high\_scores.json     # High scores
-
+│   ├── game_stats.json      # Game history
+│   └── high_scores.json     # High scores
 └── tests/                   # Unit tests (future)
-
 ```
 
 # ⚙️ Configuration
@@ -204,33 +187,19 @@ snake-game-portfolio/
 Customize your game experience by editing `config/settings.json`:
 
 ```json
-
 {
-
    "game": {
-
        "width": 800,
-
        "height": 600,
-
-       "cell\_size": 20,
-
-       "initial\_speed": 150,
-
+       "cell_size": 20,
+       "initial_speed": 150,
        "colors": {
-
            "background": "#000000",
-
            "snake": "#00FF00",
-
            "food": "#FF0000"
-
        }
-
    }
-
 }
-
 ```
 
 
@@ -310,7 +279,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 # 📫 Contact
 
-Angelo R - \(https://github.com/formertriton)
+Angelo R - (https://github.com/formertriton)
 
 Project Link: (https://github.com/formertriton/snake-game-portfolio)
 
